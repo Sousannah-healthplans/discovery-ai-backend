@@ -1,4 +1,4 @@
-### Discovery AI Backend Server   
+### Discovery AI Backend Server     
 
 #### Deploy on Railway (GitHub → auto redeploy)
 
