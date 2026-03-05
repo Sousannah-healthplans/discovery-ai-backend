@@ -1,0 +1,34 @@
+node_modules
+dist
+build
+coverage
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+venv/
+.venv/
+env/
+ocr-service/venv/
+ocr-service/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Note: .env is intentionally NOT ignored per requirements
+
+

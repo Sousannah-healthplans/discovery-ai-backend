@@ -1,0 +1,10 @@
+# Railway: use Dockerfile so one deploy runs backend + OCR. GitHub push = full redeploy.
+
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = ""
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3

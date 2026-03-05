@@ -1,0 +1,16 @@
+# Speed up Docker build; exclude dev and local files
+node_modules
+.env
+.env.*
+.git
+*.log
+npm-debug.log*
+.DS_Store
+venv
+__pycache__
+*.pyc
+.venv
+ocr-service/venv
+ocr-service/__pycache__
+*.md
+!ocr-service/README.md
